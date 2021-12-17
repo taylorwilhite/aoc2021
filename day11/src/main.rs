@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     let mut lines = include_str!("../input.txt")
         .lines()
         .map(|l| {

@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     let lines: Vec<&str> = include_str!("../input.txt").lines().collect();
     let (part1, incomplete) = part_one(lines);
     println!("Part 1: {}", part1);

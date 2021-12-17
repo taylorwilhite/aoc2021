@@ -23,7 +23,7 @@ fn is_large(name: &str) -> bool {
     }
 }
 
-fn main() {
+pub fn main() {
     let links: Vec<&str> = include_str!("../input.txt").lines().collect();
     let mut links_map = HashMap::new();
     for link in links {

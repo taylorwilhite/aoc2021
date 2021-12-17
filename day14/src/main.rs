@@ -1,6 +1,6 @@
 use itertools::Itertools;
 use std::collections::HashMap;
-fn main() {
+pub fn main() {
     let (compound, rules) = include_str!("../input.txt").split_once("\n\n").unwrap();
     let rules: HashMap<&[u8], char> = rules
         .lines()

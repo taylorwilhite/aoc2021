@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     let lines: Vec<usize> = include_str!("../input.txt")
         .lines()
         .map(|v| v.parse().unwrap())

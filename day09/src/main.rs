@@ -1,5 +1,5 @@
 use std::collections::HashSet;
-fn main() {
+pub fn main() {
     let rows: Vec<Vec<char>> = include_str!("../input.txt")
         .lines()
         .map(|l| l.chars().collect())

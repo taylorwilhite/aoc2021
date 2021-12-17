@@ -4,7 +4,7 @@ enum Fold {
     Up(usize),
     Left(usize),
 }
-fn main() {
+pub fn main() {
     let (coords, foldstring) = include_str!("../input.txt").split_once("\n\n").unwrap();
     let points: HashSet<(usize, usize)> = coords
         .lines()

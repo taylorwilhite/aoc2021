@@ -1,5 +1,5 @@
 use std::collections::VecDeque;
-fn main() {
+pub fn main() {
     let mut fish: VecDeque<usize> = include_str!("../input.txt")
         .split(",")
         .map(|s| s.parse().unwrap())

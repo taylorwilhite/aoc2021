@@ -92,7 +92,7 @@ impl Board {
         return result;
     }
 }
-fn main() {
+pub fn main() {
     let instructions: Vec<Coordinates> = include_str!("../input.txt")
         .lines()
         .map(|l| {

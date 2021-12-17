@@ -18,7 +18,7 @@ struct Packet {
     literal: Option<usize>,
 }
 
-fn main() {
+pub fn main() {
     let string = include_str!("../input.txt");
     let bits = get_bits(string);
     let part1 = part_one(&bits);

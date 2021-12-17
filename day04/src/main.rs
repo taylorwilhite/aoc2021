@@ -77,7 +77,7 @@ impl std::clone::Clone for BingoSpace {
         }
     }
 }
-fn main() {
+pub fn main() {
     let (numstring, input) = include_str!("../input.txt").split_once("\n\n").unwrap();
     let nums: Vec<u32> = numstring.split(",").map(|s| s.parse().unwrap()).collect();
     let boards: Vec<Board> = input

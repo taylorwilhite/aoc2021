@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     let positions: Vec<isize> = include_str!("../input.txt")
         .split(",")
         .map(|s| s.parse().unwrap())

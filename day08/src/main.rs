@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     let input: Vec<(&str, &str)> = include_str!("../input.txt")
         .lines()
         .map(|l| l.split_once(" | ").unwrap())

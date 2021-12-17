@@ -19,7 +19,7 @@ impl std::str::FromStr for Node {
         })
     }
 }
-fn main() {
+pub fn main() {
     let mut graph: Vec<Vec<Node>> = include_str!("../input.txt")
         .lines()
         .map(|l| {
