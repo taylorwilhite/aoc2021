@@ -28,7 +28,7 @@ impl FromStr for Instruction {
         }
     }
 }
-fn main() {
+pub fn main() {
     let instructions: Vec<Instruction> = include_str!("../input.txt")
         .lines()
         .map(|l| l.parse().unwrap())

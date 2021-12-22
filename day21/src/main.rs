@@ -48,7 +48,7 @@ impl Die {
     }
 }
 
-fn main() {
+pub fn main() {
     let (init1, init2) = (3, 10);
     let part1 = part_one(init1, init2);
     println!("Part 1: {}", part1);

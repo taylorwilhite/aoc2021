@@ -1,5 +1,5 @@
 use std::str;
-fn main() {
+pub fn main() {
     let (algorithm, image) = include_str!("../input.txt").split_once("\n\n").unwrap();
     let pixels: Vec<Vec<u8>> = image
         .lines()
